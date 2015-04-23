@@ -32,7 +32,12 @@ body,
 }
 
 #opening-menu a {
-    margin: 10px;
+    /*margin: 10px;*/
+    width: 100%;
+}
+
+.btn {
+	border-radius: 0;
 }
 
 #give-menu div {
