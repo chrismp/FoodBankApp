@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+html,
+body {
+	text-align: center;
+}
+
+html, 
+body, 
+#map-canvas {
+	width: 100%;
+	height: 100%;
+}
+
+html,
+body {
+	/* background-color: #FFB280; */
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+}
+
+.width90 {
+	width: 90%;
+}
+.width80 {
+	width: 80%;
+}
+
+.food-meter {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.red {
+	color: red;
+}
+
+.yellow {
+	color: #FF9900;
+}
+
+.green {
+	color: green;
+}
+
+.prediction {
+	color: #B2B2B2;
+	font-size: 16px;
+}
+
+#opening-menu a {
+    margin: 10px;
+}
+
+#give-menu div {
+    margin: 15px 5%;
+}
+
+select {
+	width: 100%;
+}
+
+.foodbank-menu-title h1 {
+	font-size: 20px;
+}
+
+.inventory {
+	font-size: 16px;
+	margin: 5%;
+}
+
+.inventory table {
+	text-align: left;
+}
+
+.rrssb-buttons {
+	margin-left: 32%;
+}
+
+.volunteer-drive h1 {
+	font-size: 26px;
+}
+
+.table-header {
+	font-weight: bold;
+}
+
+.push-donate {
+	margin: 25%;
+}
+
+.dropdown-menu {
+	margin-left: 65px;
+}
+
+#volunteer-select {
+	width: 53%;
+}
+
+.business-input {
+	display: none;
+}
+

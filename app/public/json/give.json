@@ -1,0 +1,32 @@
+[
+	{
+		"Name":"Palm Beach County Food Bank",
+		"Address":"525 Gator Drive Lantana, FL 33462",
+		"Phone":"561.670.2518",
+		"FoodSupply":2
+	},
+	{
+		"Name":"St Joan of Arc Catholic Church",
+		"Address":"370 SW Third Street,Boca Raton,FL",
+		"Phone":"(561) 393-8474",
+		"FoodSupply":2
+	},
+	{
+		"Name":"C.R.O.S. Ministries Delray",
+		"Address":"1845 S. Federal Highway,Delray Beach,FL",
+		"Phone":"(561) 699-5113",
+		"FoodSupply":1
+	},
+	{
+		"Name":"St. Ambrose Catholic Church",
+		"Address":"380 S Federal Highway,Deerfield Beach,FL",
+		"Phone":"954.427.2225",
+		"FoodSupply":1
+	},
+	{
+		"Name":"Gateway Community Outreach Food Pantry",
+		"Address":"291 S.E. 1st Terrace,Deerfield Beach,FL",
+		"Phone":"(954) 725-8434",
+		"FoodSupply":2
+	}
+]

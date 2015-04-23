@@ -1,0 +1,32 @@
+[
+	{
+		"Name":"Salvation Army - Boca Raton, FL",
+		"Address":"300 S.W. 2nd Avenue,Boca Raton,FL",
+		"Phone":"(561) 391-1344",
+		"FoodSupply":3
+	},
+	{
+		"Name":"Caring Kitchen - CROS Ministries",
+		"Address":"196 NW 8th Avenue,Delray Beach,FL",
+		"Phone":"N/A",
+		"FoodSupply":3
+	},
+	{
+		"Name":"C.R.O.S. Ministries Delray",
+		"Address":"1845 S. Federal Highway,Delray Beach,FL",
+		"Phone":"(561) 699-5113",
+		"FoodSupply":1
+	},
+	{
+		"Name":"St. Ambrose Catholic Church",
+		"Address":"380 S Federal Highway,Deerfield Beach,FL",
+		"Phone":"954.427.2225",
+		"FoodSupply":1
+	},
+	{
+		"Name":"Gateway Community Outreach Food Pantry",
+		"Address":"291 S.E. 1st Terrace,Deerfield Beach,FL",
+		"Phone":"(954) 725-8434",
+		"FoodSupply":2
+	}
+]

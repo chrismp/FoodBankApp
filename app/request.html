@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FoodBanks</title>
+
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="public/css/bootstrap-datetimepicker.min.css">
+	<link rel="stylesheet" type="text/css" href="public/css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="public/js/moment.min.js"></script>
+	<script src="public/js/bootstrap-datetimepicker.min.js"></script>
+</head>
+<body>
+	<div id="give-menu">
+		<h1>Request food</h1>
+		<!-- <form action="/donation_done.html"> -->
+			<div>
+				<select id="donate-category">
+					<option value="default">What are you requesting?</option>
+					<option>Canned food</option>
+					<option>Bottled drinks</option>
+					<option>Fresh fruits</option>
+					<option>Fresh vegetables</option>
+					<option>Bread</option>
+					<option>Meat or seafood</option>
+					<option>Other</option>
+				</select>
+			</div>
+
+			<div class="input-group">
+				<input id="lb" type="text" class="form-control" placeholder="How much you need">
+				<span class="input-group-addon">pounds</span>
+			</div>	
+
+			<button type="button" class="btn btn-primary" onclick="addMore()">Add to request</button>
+			<script type="text/javascript">
+				function addMore(){
+					if(
+						$('#donate-category').val() != 'default' &&
+						$('#lb').val() > 0 
+					){
+						$('donation-list-title').html('Current donation');
+						$('#current-donation ul').append(
+							'<li>'+$('#lb').val()+' pounds of '+$('#donate-category').val()+'</li>'
+						);
+						$('#donate-category').val('default');
+						$('#lb').val('');
+					}
+				}
+
+			</script>
+
+			<div id="current-donation">
+				<span id="donation-list-title">Current request (nothing yet!)</span>
+				<ul>
+					
+				</ul>
+			</div>
+
+			<div class='input-group date' id='datetimepicker1'>
+				<input id="pickup" type='text' class="form-control" placeholder="Pickup date/time (optional)" />
+				<span class="input-group-addon">
+					<span class="glyphicon glyphicon-calendar"></span>
+				</span>
+			</div>
+			<script type="text/javascript">
+				$(function () {
+				$('#datetimepicker1').datetimepicker();
+				});
+			</script>
+
+			<a href="request_done.html" role="button" class="btn btn-success">Confirm request</a>
+			<br><br>
+			<a type="button" class="btn btn-primary" href="index.html">Cancel</a>
+
+		<!-- </form> -->
+	</div>
+</body>
+</html>

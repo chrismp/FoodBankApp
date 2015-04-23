@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PBCFoodbank</title>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="public/css/bootstrap-datetimepicker.min.css">
+	<link rel="stylesheet" type="text/css" href="public/css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="public/js/moment.min.js"></script>
+	<script src="public/js/bootstrap-datetimepicker.min.js"></script>
+	<script src="public/js/volunteer.js"></script>
+</head>
+<body>
+	<h1>Pickups needed</h1>
+	<div>
+	<!-- <div class="panel panel-default"> -->
+		<!-- <div class="panel-heading">Inventory</div> -->
+		<table class="table table-striped"> 
+			<tr class="table-header">
+				<td>When</td>
+				<td>Where</td>
+				<td>Food</td>
+			</tr>
+			<tr>
+				<td>12PM 4/10</td>
+				<td>901 Technology Way, Boca Raton, FL</td>
+				<td>Canned food <br>50 lb</td>
+				<td id="click-me"><span class="glyphicon glyphicon-thumbs-up"></span></td>
+			</tr>
+			<tr>
+				<td>7AM 4/11</td>
+				<td>777 Glades Road, Boca Raton, FL</td>
+				<td>Meat/seafood <br>25 lb</td>
+				<td><a href="volunteer_done.html"><span class="glyphicon glyphicon-thumbs-up"></span></a></td>
+			</tr>
+			<tr>
+				<td>2PM 4/15</td>
+				<td>1 Clematis Street, West Palm Beach, FL</td>
+				<td>Fruits <br> 10 lb</td>
+				<td><a href="volunteer_done.html"><span class="glyphicon glyphicon-thumbs-up"></span></a></td>
+			</tr>
+<!-- 			<tr>
+				<td>6:30PM 4/20</td>
+				<td>327 Plaza Real, Boca Raton, FL</td>
+				<td>Veggies <br>15 lb</td>
+				<td><a href="volunteer_done.html"><span class="glyphicon glyphicon-thumbs-up"></span></a></td>
+			</tr> -->
+		</table>
+			<div class='input-group date' id='datetimepicker1'>
+				<input id="pickup" type='text' class="form-control" placeholder="My availability for two hour minimum..." />
+				<span class="input-group-addon">
+					<span class="glyphicon glyphicon-calendar"></span>
+				</span>
+				<script type="text/javascript">
+					$(function () {
+					$('#datetimepicker1').datetimepicker();
+					});
+				</script>
+			</div>
+		<a href="volunteer_done.html"><span class="glyphicon glyphicon-thumbs-up"></span></a>
+		<br>
+		<a href="index.html" role="button" class="btn btn-success">Home</a>
+	</div>
+</body>
+</html>

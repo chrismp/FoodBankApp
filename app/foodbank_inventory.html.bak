@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>foodsharePBC</title>
+
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="public/css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="public/js/table.js"></script>
+</head>
+<body class="foodbank-menu-title">
+	<h1>
+		Welcome,
+		<br>
+		Palm Beach County Food Bank!
+	</h1>
+
+		<div class="inventory panel panel-default">
+			<div class="panel-heading"><b>Inventory</b></div>
+			<table id="inventory-table" class="table table-striped"></table>
+		</div>
+	<a href="index.html" role="button" class="btn btn-success">Home</a>
+</body>
+</html>
