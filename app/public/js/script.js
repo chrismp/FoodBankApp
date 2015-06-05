@@ -36,6 +36,7 @@ function initialize() {
 
 				map.setCenter(pos);
 				google.maps.event.addListener(layer,'click',function(e){
+					console.log(e);
 					var latLng = e.latLng;
 					var row = e.row;
 					var foodSupply = row['FoodSupply'].value
@@ -58,8 +59,8 @@ function initialize() {
 					var infowindow = new google.maps.InfoWindow({
 						map: map,
 						position: {
-							lat: latLng.k,
-							lng: latLng.D
+							lat: latLng.A,
+							lng: latLng.F
 						},
 						content: content
 					});
